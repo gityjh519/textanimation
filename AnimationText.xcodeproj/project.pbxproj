@@ -12,6 +12,27 @@
 		F7AD88F2225DB03C00283072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD88F0225DB03C00283072 /* Main.storyboard */; };
 		F7AD88F4225DB03D00283072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AD88F3225DB03D00283072 /* Assets.xcassets */; };
 		F7AD88F7225DB03D00283072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD88F5225DB03D00283072 /* LaunchScreen.storyboard */; };
+		F7AD891C225DB0C600283072 /* TransitionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8903225DB0C500283072 /* TransitionManger.swift */; };
+		F7AD891D225DB0C600283072 /* PopBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8904225DB0C500283072 /* PopBaseViewController.swift */; };
+		F7AD891E225DB0C600283072 /* CurrentModelContontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8905225DB0C500283072 /* CurrentModelContontroller.swift */; };
+		F7AD891F225DB0C600283072 /* JHSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8906225DB0C500283072 /* JHSBaseViewController.swift */; };
+		F7AD8920225DB0C600283072 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8907225DB0C500283072 /* BaseController.swift */; };
+		F7AD8921225DB0C600283072 /* RequestOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8909225DB0C500283072 /* RequestOperation.swift */; };
+		F7AD8922225DB0C600283072 /* ReadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD890A225DB0C500283072 /* ReadFileManager.swift */; };
+		F7AD8923225DB0C600283072 /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD890B225DB0C500283072 /* RequestConfig.swift */; };
+		F7AD8924225DB0C600283072 /* RelationFileKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD890C225DB0C500283072 /* RelationFileKey.swift */; };
+		F7AD8925225DB0C600283072 /* HttpParamterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD890D225DB0C500283072 /* HttpParamterModel.swift */; };
+		F7AD8926225DB0C600283072 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD890F225DB0C500283072 /* BaseModel.swift */; };
+		F7AD8927225DB0C600283072 /* FMBaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8911225DB0C500283072 /* FMBaseCollectionView.swift */; };
+		F7AD8928225DB0C600283072 /* FMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8912225DB0C500283072 /* FMScrollView.swift */; };
+		F7AD8929225DB0C600283072 /* BlurModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8913225DB0C500283072 /* BlurModelView.swift */; };
+		F7AD892A225DB0C600283072 /* FMBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8914225DB0C500283072 /* FMBaseTableView.swift */; };
+		F7AD892B225DB0C600283072 /* DefineSwiftFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8916225DB0C500283072 /* DefineSwiftFunc.swift */; };
+		F7AD892C225DB0C600283072 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8917225DB0C500283072 /* ExtensionView.swift */; };
+		F7AD892D225DB0C600283072 /* AppDelegateExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8918225DB0C500283072 /* AppDelegateExtenstion.swift */; };
+		F7AD892E225DB0C600283072 /* AppExtenConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8919225DB0C500283072 /* AppExtenConfig.swift */; };
+		F7AD892F225DB0C600283072 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD891B225DB0C500283072 /* DataBaseManager.swift */; };
+		F7AD8931225DB30D00283072 /* TextAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD8930225DB30D00283072 /* TextAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +43,27 @@
 		F7AD88F3225DB03D00283072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7AD88F6225DB03D00283072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7AD88F8225DB03D00283072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD8903225DB0C500283072 /* TransitionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManger.swift; sourceTree = "<group>"; };
+		F7AD8904225DB0C500283072 /* PopBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopBaseViewController.swift; sourceTree = "<group>"; };
+		F7AD8905225DB0C500283072 /* CurrentModelContontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentModelContontroller.swift; sourceTree = "<group>"; };
+		F7AD8906225DB0C500283072 /* JHSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSBaseViewController.swift; sourceTree = "<group>"; };
+		F7AD8907225DB0C500283072 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		F7AD8909225DB0C500283072 /* RequestOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOperation.swift; sourceTree = "<group>"; };
+		F7AD890A225DB0C500283072 /* ReadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadFileManager.swift; sourceTree = "<group>"; };
+		F7AD890B225DB0C500283072 /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		F7AD890C225DB0C500283072 /* RelationFileKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationFileKey.swift; sourceTree = "<group>"; };
+		F7AD890D225DB0C500283072 /* HttpParamterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParamterModel.swift; sourceTree = "<group>"; };
+		F7AD890F225DB0C500283072 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		F7AD8911225DB0C500283072 /* FMBaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseCollectionView.swift; sourceTree = "<group>"; };
+		F7AD8912225DB0C500283072 /* FMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMScrollView.swift; sourceTree = "<group>"; };
+		F7AD8913225DB0C500283072 /* BlurModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurModelView.swift; sourceTree = "<group>"; };
+		F7AD8914225DB0C500283072 /* FMBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseTableView.swift; sourceTree = "<group>"; };
+		F7AD8916225DB0C500283072 /* DefineSwiftFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineSwiftFunc.swift; sourceTree = "<group>"; };
+		F7AD8917225DB0C500283072 /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		F7AD8918225DB0C500283072 /* AppDelegateExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtenstion.swift; sourceTree = "<group>"; };
+		F7AD8919225DB0C500283072 /* AppExtenConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtenConfig.swift; sourceTree = "<group>"; };
+		F7AD891B225DB0C500283072 /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		F7AD8930225DB30D00283072 /* TextAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +96,99 @@
 		F7AD88EB225DB03B00283072 /* AnimationText */ = {
 			isa = PBXGroup;
 			children = (
+				F7AD8900225DB0C500283072 /* frameTask */,
 				F7AD88EC225DB03B00283072 /* AppDelegate.swift */,
 				F7AD88EE225DB03C00283072 /* ViewController.swift */,
+				F7AD8930225DB30D00283072 /* TextAnimationView.swift */,
 				F7AD88F0225DB03C00283072 /* Main.storyboard */,
 				F7AD88F3225DB03D00283072 /* Assets.xcassets */,
 				F7AD88F5225DB03D00283072 /* LaunchScreen.storyboard */,
 				F7AD88F8225DB03D00283072 /* Info.plist */,
 			);
 			path = AnimationText;
+			sourceTree = "<group>";
+		};
+		F7AD8900225DB0C500283072 /* frameTask */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8901225DB0C500283072 /* controller */,
+				F7AD8908225DB0C500283072 /* http */,
+				F7AD890E225DB0C500283072 /* model */,
+				F7AD8910225DB0C500283072 /* view */,
+				F7AD8915225DB0C500283072 /* extenstion */,
+				F7AD891A225DB0C500283072 /* caches */,
+			);
+			path = frameTask;
+			sourceTree = "<group>";
+		};
+		F7AD8901225DB0C500283072 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8902225DB0C500283072 /* pop */,
+				F7AD8906225DB0C500283072 /* JHSBaseViewController.swift */,
+				F7AD8907225DB0C500283072 /* BaseController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F7AD8902225DB0C500283072 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8903225DB0C500283072 /* TransitionManger.swift */,
+				F7AD8904225DB0C500283072 /* PopBaseViewController.swift */,
+				F7AD8905225DB0C500283072 /* CurrentModelContontroller.swift */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		F7AD8908225DB0C500283072 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8909225DB0C500283072 /* RequestOperation.swift */,
+				F7AD890A225DB0C500283072 /* ReadFileManager.swift */,
+				F7AD890B225DB0C500283072 /* RequestConfig.swift */,
+				F7AD890C225DB0C500283072 /* RelationFileKey.swift */,
+				F7AD890D225DB0C500283072 /* HttpParamterModel.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		F7AD890E225DB0C500283072 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD890F225DB0C500283072 /* BaseModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7AD8910225DB0C500283072 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8911225DB0C500283072 /* FMBaseCollectionView.swift */,
+				F7AD8912225DB0C500283072 /* FMScrollView.swift */,
+				F7AD8913225DB0C500283072 /* BlurModelView.swift */,
+				F7AD8914225DB0C500283072 /* FMBaseTableView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F7AD8915225DB0C500283072 /* extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD8916225DB0C500283072 /* DefineSwiftFunc.swift */,
+				F7AD8917225DB0C500283072 /* ExtensionView.swift */,
+				F7AD8918225DB0C500283072 /* AppDelegateExtenstion.swift */,
+				F7AD8919225DB0C500283072 /* AppExtenConfig.swift */,
+			);
+			path = extenstion;
+			sourceTree = "<group>";
+		};
+		F7AD891A225DB0C500283072 /* caches */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD891B225DB0C500283072 /* DataBaseManager.swift */,
+			);
+			path = caches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +262,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AD891F225DB0C600283072 /* JHSBaseViewController.swift in Sources */,
+				F7AD8926225DB0C600283072 /* BaseModel.swift in Sources */,
 				F7AD88EF225DB03C00283072 /* ViewController.swift in Sources */,
+				F7AD8922225DB0C600283072 /* ReadFileManager.swift in Sources */,
+				F7AD8921225DB0C600283072 /* RequestOperation.swift in Sources */,
+				F7AD892C225DB0C600283072 /* ExtensionView.swift in Sources */,
+				F7AD891C225DB0C600283072 /* TransitionManger.swift in Sources */,
+				F7AD8925225DB0C600283072 /* HttpParamterModel.swift in Sources */,
+				F7AD8929225DB0C600283072 /* BlurModelView.swift in Sources */,
+				F7AD892A225DB0C600283072 /* FMBaseTableView.swift in Sources */,
+				F7AD8923225DB0C600283072 /* RequestConfig.swift in Sources */,
 				F7AD88ED225DB03B00283072 /* AppDelegate.swift in Sources */,
+				F7AD8928225DB0C600283072 /* FMScrollView.swift in Sources */,
+				F7AD892B225DB0C600283072 /* DefineSwiftFunc.swift in Sources */,
+				F7AD892F225DB0C600283072 /* DataBaseManager.swift in Sources */,
+				F7AD891D225DB0C600283072 /* PopBaseViewController.swift in Sources */,
+				F7AD8920225DB0C600283072 /* BaseController.swift in Sources */,
+				F7AD8931225DB30D00283072 /* TextAnimationView.swift in Sources */,
+				F7AD8927225DB0C600283072 /* FMBaseCollectionView.swift in Sources */,
+				F7AD891E225DB0C600283072 /* CurrentModelContontroller.swift in Sources */,
+				F7AD8924225DB0C600283072 /* RelationFileKey.swift in Sources */,
+				F7AD892E225DB0C600283072 /* AppExtenConfig.swift in Sources */,
+				F7AD892D225DB0C600283072 /* AppDelegateExtenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
